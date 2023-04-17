@@ -13,9 +13,9 @@ class Calculette:
 	def divide(self,a, b):
 		if b < 1:
 			raise Error("vous êtes sûr????")
-		if isinstance(a, (int, float)) and not isinstance(a, bool):
+		if not isinstance(a, (int, float)) :
 			raise Error("vous êtes sûr du type de a ")
-		if isinstance(b, (int, float)) and not isinstance(b, bool):
+		if not isinstance(b, (int, float)) :
 			raise Error("vous êtes sûr du type de b ")
 		self.res =  a / b
 		print(self.res)
