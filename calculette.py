@@ -20,6 +20,9 @@ class Calculette:
 		self.res =  a / b
 		print(self.res)
 
+	def test(self):
+		self.res = 0
+
 if __name__ == '__main__':
 	c = Calculette()
 	c.add(1,2)
