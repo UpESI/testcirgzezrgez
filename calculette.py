@@ -17,7 +17,7 @@ class Calculette:
 		print(self.res)
 
 	def test(self):
-		self.res = 1
+		self.res = 10
 
 if __name__ == '__main__':
 	c = Calculette()
