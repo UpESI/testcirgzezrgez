@@ -1,6 +1,9 @@
 class Error(Exception):
 	pass
 
+
+
+
 class Calculette:
 
 	def __init__(self):
